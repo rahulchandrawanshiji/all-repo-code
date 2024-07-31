@@ -1,5 +1,6 @@
 # let start with the basic program to know about api 
 from fastapi import FastAPI
+
 app=FastAPI()
 @app.get("/")
 async def root ():
