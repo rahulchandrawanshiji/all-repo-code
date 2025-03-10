@@ -12,6 +12,7 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
+<<<<<<< HEAD
 def substances(miner,major):
     if miner<=major:
         if miner%2==0:
@@ -21,6 +22,8 @@ def substances(miner,major):
     else:
         print("the function are not working and the particular persentage are not divent by the parsentage ")
 ans = substances()
+=======
+>>>>>>> 2876436bc73834fba7ad832665ac58f2cfaf8507
 # Calling functions one by one
 result1 = add(10, 5)
 print(f"Addition: {result1}")
