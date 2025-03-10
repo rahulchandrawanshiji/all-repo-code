@@ -5,7 +5,8 @@ A request body is data sent by the client to your API. A response body is the da
 Your API almost always has to send a response body. But clients don't necessarily need to send request bodies all the time.'''
 
 from fastapi import FastAPI       #FastAPI is a library
-from pydantic import BaseModel    #BaseModel from the pydantic library is used for data validation and data conversion, 
+from pydantic import BaseModel 
+from flask import Flask,jsonify   #BaseModel from the pydantic library is used for data validation and data conversion, 
                                     #helping you define data models and ensure data conforms to the expected format.
 class Item(BaseModel):           #This line imports the BaseModel class from the Pydantic library.
                                   # BaseModel is the base class for creating data models that provide data validation and parsing.
