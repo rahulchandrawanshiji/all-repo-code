@@ -29,7 +29,8 @@ async def create_item(item: Item):
 '''Create your data mode l¶
 Then you declare your data model as a class that inherits from BaseModel.
 
-Use standard Python types these file extenderd for which another way these also include functionlaliy ther are 
+Use standard Python types these file  item are extendert which provie minimum there are derive which  substentent 
+import the library thet help cases thet are expand there derive  extenderd for which another way these also include functionlaliy ther are 
 substruction unsessary precause devident particle for all the attributes:
 
 
